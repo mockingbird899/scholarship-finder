@@ -1,0 +1,139 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2821
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 <!DOCTYPE html>\
+<html lang="en">\
+<head>\
+    <meta charset="UTF-8">\
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <title>Scholarship Finder</title>\
+    <link rel="stylesheet" href="styles.css">\
+</head>\
+<body>\
+    <div class="container">\
+        <h1>Scholarship Finder</h1>\
+        <form id="studentForm">\
+            <!-- Personal Info -->\
+            <h3>Personal Info</h3>\
+            <label for="county">County:</label>\
+            <input type="text" id="county" placeholder="e.g., Adams\'94><br>\
+\
+            <label for="state">State:</label>\
+            <input type="text" id="state" placeholder="e.g., Indiana"><br>\
+\
+            <label for="ethnicity">Ethnicity:</label>\
+            <input type="text" id="ethnicity" placeholder="e.g., Hispanic"><br>\
+\
+            <label for="gender">Gender (Optional):</label>\
+            <input type="text" id="gender" placeholder="e.g., Male"><br>\
+\
+            <label for="firstGen">First-Generation Student? (Yes/No):</label>\
+            <input type="text" id="firstGen" placeholder="e.g., Yes"><br>\
+\
+            <label for="veteran">Veteran or Military Dependent? (Yes/No):</label>\
+            <input type="text" id="veteran" placeholder="e.g., No"><br>\
+\
+            <!-- Academic Info -->\
+            <h3>Academic Info</h3>\
+            <label for="gpa">Current GPA:</label>\
+            <input type="number" id="gpa" step="0.01" min="0" max="4" placeholder="e.g., 2.5\'94><br>\
+\
+            <label for="major">Major(s):</label>\
+            <input type="text" id="major" placeholder="e.g., Biology"><br>\
+\
+            <label for="minor">Minor(s):</label>\
+            <input type="text" id="minor" placeholder="e.g., None"><br>\
+\
+            <label for="gradYear">Anticipated Graduation Year:</label>\
+            <input type="number" id="gradYear" min="2025" max="2035" placeholder="e.g., 2028\'94><br>\
+\
+            <label for="year">Academic Standing:</label>\
+            <input type="text" id="year" placeholder="e.g., Junior\'94><br>\
+\
+            <label for="honors">Honors/Achievements:</label>\
+            <input type="text" id="honors" placeholder="e.g., Dean\'92s List"><br>\
+\
+            <label for="orgs">Academic/Professional Orgs? (Yes/No):</label>\
+            <input type="text" id="orgs" placeholder="e.g., No"><br>\
+\
+            <label for="orgList">If Yes, List Orgs:</label>\
+            <input type="text" id="orgList" placeholder="e.g., N/A"><br>\
+\
+            <!-- Career Goals -->\
+            <h3>Career Goals</h3>\
+            <label for="career">Career Choice/Industry:</label>\
+            <input type="text" id="career" placeholder="e.g., Physician\'92s Assistant"><br>\
+\
+            <label for="employer">Preferred Employer(s):</label>\
+            <input type="text" id="employer" placeholder="e.g., N/A"><br>\
+\
+            <label for="gradSchool">Plan to Attend Grad School? (Yes/No):</label>\
+            <input type="text" id="gradSchool" placeholder="e.g., Yes"><br>\
+\
+            <!-- Financial Need -->\
+            <h3>Financial Need</h3>\
+            <label for="fafsa">Completed FAFSA? (Yes/No):</label>\
+            <input type="text" id="fafsa" placeholder="e.g., Yes"><br>\
+\
+            <label for="efc">Estimated Family Contribution (EFC):</label>\
+            <input type="number" id="efc" placeholder="e.g., -1500"><br>\
+\
+            <label for="employed">Currently Employed? (Yes/No):</label>\
+            <input type="text" id="employed" placeholder="e.g., Yes"><br>\
+\
+            <label for="job">If Yes, Employer & Position:</label>\
+            <input type="text" id="job" placeholder="e.g., Mcdonald\'92s Team Member\'94><br>\
+\
+            <label for="workStudy">Eligible for Work-Study? (Yes/No):</label>\
+            <input type="text" id="workStudy" placeholder="e.g., Yes"><br>\
+\
+            <label for="dependents">Have Dependents? (Yes/No):</label>\
+            <input type="text" id="dependents" placeholder="e.g., No"><br>\
+\
+            <!-- Extracurriculars -->\
+            <h3>Extracurriculars</h3>\
+            <label for="activities">Clubs/Sports/Activities:</label>\
+            <input type="text" id="activities" placeholder="e.g., Wrestling"><br>\
+\
+            <label for="leadership">Leadership Positions:</label>\
+            <input type="text" id="leadership" placeholder="e.g., Team Captain"><br>\
+\
+            <label for="volunteer">Community Service/Volunteer Work:</label>\
+            <input type="text" id="\uc0\u2367 \u2351 \u2379 \u2306 \
+\
+volunteer" placeholder="e.g., Church"><br>\
+\
+            <!-- Unique Attributes -->\
+            <h3>Unique Attributes</h3>\
+            <label for="disability">Disabilities/Medical Conditions? (Yes/No):</label>\
+            <input type="text" id="disability" placeholder="e.g., No"><br>\
+\
+            <label for="underrepresented">Identify with Underrepresented Group? (Yes/No):</label>\
+            <input type="text" id="underrepresented" placeholder="e.g., No"><br>\
+\
+            <label for="underrepList">If Yes, Specify:</label>\
+            <input type="text" id="underrepList" placeholder="e.g., N/A"><br>\
+\
+            <label for="languages">Languages Spoken:</label>\
+            <input type="text" id="languages" placeholder="e.g., English, Spanish"><br>\
+\
+            <label for="talents">Artistic/Musical/Athletic Talents? (Yes/No):</label>\
+            <input type="text" id="talents" placeholder="e.g., Yes"><br>\
+\
+            <label for="talentList">If Yes, Describe:</label>\
+            <input type="text" id="talentList" placeholder="e.g., Agility"><br>\
+\
+            <button type="submit">Find Scholarships</button>\
+        </form>\
+        <div id="results">\
+            <h2>Results</h2>\
+            <p id="resultsText">Enter your info and click "Find Scholarships" to see results here!</p>\
+        </div>\
+    </div>\
+    <script src="script.js"></script>\
+</body>\
+</html>}
